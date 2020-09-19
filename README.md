@@ -36,8 +36,8 @@ I decided to test the model in two manners:
 The latter shows how good the model is if we ignore luck as much as possible. On the first testing method, only the very first choice is 100% safe, so the model must guess the next few ones (which results in a little diversification of the win rate). The second testing approach doesn't 100% ignore luck, but it removes the games that are lost prematurely.
 
 After testing each approach on 10000 games, these are the results:
-- the first one achieves a 67.52% win rate.
-- the second one achieves an 83.21% win rate.
+- the first one achieves a ~66% win rate.
+- the second one achieves an ~83.21% win rate.
 
 When looking at these results and also at some of the situations the solver loses at, it is quite obvious that we can improve it to reach 80%+ win rate on the overal testing method. This can be done either by finding a better architecture, by coming up with a better training strategy (for example alternating between training early, mid and late game states), by finding the perfect training amount (to not underfit or overfit) etc.
 
