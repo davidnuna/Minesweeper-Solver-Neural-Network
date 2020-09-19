@@ -2,7 +2,7 @@
 A solver for the game minesweeper made using convolutional neural networks.
 
 Given a game state, the application tries to pick the cell with the lowest probability of containing a mine. This is achieved using a convolutional neural network.
-Let's see a preview of the application solving an 8x8 game:
+Let's watch a preview of the application solving an 8x8 game:
 
 ![](pictures/EX0.gif)
 
