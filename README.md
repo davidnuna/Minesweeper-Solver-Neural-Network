@@ -39,7 +39,7 @@ After testing each approach on 10000 games, these are the results:
 - the first one achieves a 67.52% win rate.
 - the second one achieves an 83.21% win rate.
 
-When looking at these results and also at some of the situations the solver loses at, it is quite obvious that we can improve it to reach 80%+ win rate on the overal testing method. This can be done either by finding a better architecture, by coming up with a better training strategy (for example alternating between training early game, mid game and late game game states), by finding the perfect training amount (to not underfit or overfit) etc.
+When looking at these results and also at some of the situations the solver loses at, it is quite obvious that we can improve it to reach 80%+ win rate on the overal testing method. This can be done either by finding a better architecture, by coming up with a better training strategy (for example alternating between training early, mid and late game states), by finding the perfect training amount (to not underfit or overfit) etc.
 
 Here are some heartbreaking examples the solver loses in:
 
@@ -57,7 +57,7 @@ Install all the modules:
 pip install -r requirements.txt
 ```
 
-# Usage
+# How to Use:
 
 If you want to keep training the module (by default with 1000 batches, 100 game states and 2 epochs), run the "solver.py" file:
 ```
